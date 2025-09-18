@@ -1,0 +1,8 @@
+# we actually dont want the python envirnoment file , as its too heavy and theres no need to
+#upload it online
+
+
+venv/
+__pycache__/
+*.pyc
+.env
