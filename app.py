@@ -17,5 +17,9 @@ def ads():
     ]
     return jsonify({"ads": ads_data})
 
+@app.route("/FAQ")
+def contact():
+    return render_template("FAQ.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

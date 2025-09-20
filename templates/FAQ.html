@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently asked questions</title>
+</head>
+<body>
+    <h2>FAQ(Frequently asked questions)</h2>
+    <hr>
+   <label for="questions">Please drop your question here 🤓</label>
+   <input type="text" name="question" id="question">
+   <button id="askbutton">ASK</button>
+   <script>
+    document.getElementById("askbutton").addEventListener("click", function(){
+        console.log("button clicked!");
+        window.location.href="FAQ.html";
+    });
+   </script>
+   <BR></BR>
+</body>
+</html>
